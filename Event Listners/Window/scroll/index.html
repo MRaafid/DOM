@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Event Example</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        #scrollable {
+            height: 200px;
+            width: 100%;
+            overflow: auto;
+            border: 1px solid black;
+        }
+
+        .content {
+            height: 600px;
+            width: 100%;
+            background: linear-gradient(to bottom, #ffcccc, #ccccff);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="scrollable">
+        <div class="content"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
