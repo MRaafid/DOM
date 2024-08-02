@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Enter Event Example</title>
+    <style>
+        #draggable {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            cursor: grab;
+        }
+
+        #dropzone {
+            width: 200px;
+            height: 200px;
+            border: 2px dashed #ccc;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="draggable" draggable="true">Drag me</div>
+    <div id="dropzone">Drop here</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
