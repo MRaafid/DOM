@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Events Example</title>
+    <style>
+        @keyframes slide {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(100px);
+            }
+        }
+
+        #animatedBox {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            animation: slide 3s infinite;
+            /* if given infine the animation will never end */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="animatedBox"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
